@@ -1,5 +1,7 @@
 # rhel-enable-sctp
 
+version:8.7
+
 ### 1. Install kernel-modules-extra and SCTP for the currently installed kernel;
 ```
 yum install -y lksctp-tools lksctp-tools-devel lksctp-tools-doc
